@@ -15,6 +15,7 @@ class HumanPlayer
         position.map! { |num| num.to_i }
     end
     
+
     
 end
 
