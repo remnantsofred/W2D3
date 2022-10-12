@@ -92,33 +92,5 @@ class Board
 end
 
 p test_board = Board.new   
-p test_board.place_mark([1, 1], :X)   
-p test_board.place_mark([0, 2], :O)   
-p test_board.place_mark([2, 1], :X)   
-p test_board.print
-p test_board.win?(:X)           #false
-p test_board.win?(:O)           #false
-
-puts "--"
-
-p test_board.place_mark([0, 1], :O)   
-p test_board.place_mark([0, 0], :X)   
-p test_board.place_mark([1, 2], :O)
-p test_board.place_mark([2, 2], :X)
-puts "--"
-p test_board.print
-puts "--"
-p test_board.win_row?(:X)       #false     
-p test_board.win_row?(:O)       #false   
-p test_board.win_col?(:X)       #false
-p test_board.win_col?(:O)        #false
-p test_board.win_diagonal?(:O)  #false
-puts "--"
-p test_board.win_diagonal?(:O)  #true
-p test_board.win?(:X)           #true
-p test_board.win?(:O)           #false
-
-
-p test_board.empty_positions?   #true
 
 

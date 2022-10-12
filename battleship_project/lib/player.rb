@@ -7,5 +7,6 @@ class Player
         coordinates.map! { |num| num.to_i }
     end
 
+    
 
 end
